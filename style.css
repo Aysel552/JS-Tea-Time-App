@@ -1,0 +1,148 @@
+body, html {
+    margin: 0;
+    height: 120%;
+    background-color: #000000;
+    text-align: center;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.top {
+margin-top: 0px;
+padding: 40px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    padding: 30px;
+    margin: 100px 35%;
+    position: absolute;
+}
+.tete{
+    background-color: rgba(21,20,20,0.8);
+    text-align: center;
+}
+.mainContainer {
+    background-image: url(https://cdn.glitch.com/452ef36b-46d0-4478-8d78-f5cc265ea425%2F3.jpg?v=1630235259262);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30%;
+    margin-top: 0px;
+}
+.containerHead{
+    background-image: url(https://cdn.glitch.com/452ef36b-46d0-4478-8d78-f5cc265ea425%2F3.jpg?v=1630235259262);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20%;
+    margin-top: 0px;
+}
+.mainContainerTwo {
+    background-image: url(https://cdn.glitch.com/452ef36b-46d0-4478-8d78-f5cc265ea425%2F3.jpg?v=1630235259262);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25%;
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    color: #fff;
+    background-color: rgba(21,20,20,0.8);
+}
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    color: #534E52;
+    font-weight: 300;
+    padding: 10px;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-around;
+}
+#btn{
+    border: 2px solid #fff;
+    border-radius: 3px;
+    padding: 15px 35px ;
+    background-color: rgba(21,20,20,0.8);
+    margin: 10px;
+}
+#btn:hover {
+    background-color: rgba(1, 53, 44, 0.6);
+}
+a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: #fff;
+}
+.link {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.home {
+    margin: 10px;
+}
+
+@media all and (max-width: 800px) {
+    .btn-container{
+        flex-direction: column;
+    }
+    .column {
+        width: unset;
+        padding: 30px;
+        margin: 0;
+        position: unset;
+    }
+  .link {
+    margin-top: 10px;
+  }
+  .containerHead {
+    height: 70%;
+  }
+}
+@media all and (max-width: 500px) {
+    .btn-container{
+        flex-direction: column;
+    }
+  .column {
+        width: unset;
+        padding: 30px;
+        margin: 0;
+        position: unset;
+    }
+  .containerHead {
+    height: 70%;
+  }
+  .link {
+    margin-top: 10px
+  }
+}
+@media all and (max-width: 300px) {
+    .btn-container{
+        flex-direction: column;
+    }
+  .column {
+        width: unset;
+        padding: 30px;
+        margin: 0;
+        position: unset;
+    }
+  .containerHead {
+    height: 70%;
+  }
+  .link {
+    margin-top: 40px
+  }
+}
